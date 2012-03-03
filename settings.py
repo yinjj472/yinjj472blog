@@ -105,9 +105,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfResponseMiddleware',
 )
 
-ROOT_URLCONF = 'DjangoDemo.urls'
+ROOT_URLCONF = 'yinjj472blog.urls'
 
-TEMPLATE_DIRS = ('C:/Users/yin/PycharmProjects/DjangoDemo/templates',)
+TEMPLATE_DIRS = ('C:/Users/yin/PycharmProjects/yinjj472blog/templates',)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -120,10 +120,10 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
-    'DjangoDemo.TestApp',
-    'DjangoDemo.blog',
-    'DjangoDemo.depot',
-    'DjangoDemo.django-groundwork',
+    'yinjj472blog.TestApp',
+    'yinjj472blog.blog',
+    'yinjj472blog.depot',
+    'yinjj472blog.django-groundwork',
     'djangorestframework',
 )
 

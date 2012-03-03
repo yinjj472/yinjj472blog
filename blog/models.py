@@ -10,7 +10,7 @@ class Category(models.Model):
 
 class Article(models.Model):
     title = models.CharField(max_length=64)
-    published_at = models.DateTimeField('data published')
+    published_at = models.DateTimeField('Data Published')
     content = models.TextField()
     category = models.ForeignKey(Category)
     def __unicode__(self):
