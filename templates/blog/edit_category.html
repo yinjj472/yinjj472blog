@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Category{% endblock %}
+
+{% block headers %}<h1> Edit</h1><h2> Category</h2>{% endblock %}
+
+{% block content %}
+    <table>
+        <form action="" method="POST">{% csrf_token %}
+            {{ form }}
+            <tr>
+                <td colspan="2" align="right"><input type="submit" value="Save"></td>
+            </tr>
+        </form>
+    </table>
+{% endblock %}
