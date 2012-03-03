@@ -1,5 +1,4 @@
-this is test readme file.
+这是个人的学习python和django写的个人博客程序，使用django做为web框架
+博客对外接口实现RESTful,有全文检索和RSS模块，数据库使用python内置的sqlite3.
 
-this is commit from pycharm.
-
-ss
+希望能不断完善，改进。
